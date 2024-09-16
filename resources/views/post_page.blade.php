@@ -168,7 +168,7 @@
 
                         <img src="{{ asset('/' . $blog->image_path) }}" class="img-fluid" alt="">
 
-                        <div class="post-text">
+                        <div style="font-size: large" class="post-text">
                             <div class="container text-dark">
                             
                                 {!! $blog->content !!}
