@@ -51,7 +51,7 @@
                         <div class="col-lg-8 mb-sm-30">
                             <form name="contactForm" id='contact_form' class="form-s1" method="post"
                                 action='https://formsubmit.co/Info@demandgine.com'>
-                                <input type="hidden" name="_next" value="https://DemandGine.com/thankyoupage.php">
+                                <input type="hidden" name="_next" value="https://DemandGine.com/">
                                 <input type="hidden" name="_captcha" value="false">
 
 

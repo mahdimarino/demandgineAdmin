@@ -175,8 +175,8 @@
                             
                             </div>
                            
-                            <span class="post-date">{{ \Carbon\Carbon::parse($blog->post_date)->format('Y-m-d') }}</span>
-                           {{--  <span class="post-comment">1</span>
+                          {{--  <span class="post-date">{{ \Carbon\Carbon::parse($blog->post_date)->format('Y-m-d') }}</span>
+                            <span class="post-comment">1</span>
                             <span class="post-like">181</span> --}}
 
                         </div>

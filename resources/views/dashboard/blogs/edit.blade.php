@@ -31,10 +31,17 @@
             </div>
 
             <div class="form-group col-6">
-                <label>Post Date <span class="tx-danger">*</span></label>
+                <label>Publication Date <span class="tx-danger">*</span></label>
                 <div class="input-group">
                     <input type="date" name="post_date" value="{{$blog->post_date->format('Y-m-d')}}"
                         class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group col-6">
+                <label>Author <span class="tx-danger">*</span></label>
+                <div class="input-group">
+                    <input type="text" name="author" value="{{$blog->author}}" class="form-control" required>
                 </div>
             </div>
 
