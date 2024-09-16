@@ -156,8 +156,8 @@
                     <h1 style="margin-bottom: 0" class="text-dark">{{ $blog->title }}</h1>
                     <div class="inner" style="background-size: cover;">
                         <h5>
-                            <span class="post-date">2024-09-26</span>
-                            <span class="post-author">njnjnj</span>
+                            <span class="post-date">{{ \Carbon\Carbon::parse($blog->post_date)->format('Y-m-d') }}</span>
+                            <span class="post-author">{{ $blog->author }}</span>
                         </h5>
                     </div>
                 </div>
