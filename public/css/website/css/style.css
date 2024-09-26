@@ -1692,6 +1692,8 @@ header.header-light .logo-2 {
 
 .post-image {
     position: relative;
+        height: 20rem;
+    overflow-y: hidden;
 }
 
 .post-image .post-info {
